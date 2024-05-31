@@ -11,6 +11,6 @@ public aspect CheckAsurrance {
 	}
 	
 	after(): verifyAssurance(){
-		System.out.println("[Request was executed succesfully]\n");
+		System.out.println("Request was executed succesfully\n");
 	}
 }
