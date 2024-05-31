@@ -7,7 +7,7 @@ public aspect CheckAsurrance {
 		System.out.println("Verifying assurance...");
 		System.out.println("Name of your pet:");
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Welcome" + sc.nextLine());
+		System.out.println("Welcome " + sc.nextLine());
 	}
 	
 	after(): verifyAssurance(){
